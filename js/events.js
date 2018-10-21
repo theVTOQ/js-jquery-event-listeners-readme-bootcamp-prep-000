@@ -14,7 +14,7 @@ function pressIt(key){
 }*/
 
 function pressIt(){
-  $('form:input').on('keydown', function(key){
+  $('input').on('keydown', function(key){
     if(key.which == 71){
       alert('G was pressed');
     }
@@ -31,7 +31,6 @@ $(document).ready(function(){
 // call functions here
   $('p').on('click', getIt);
   $('img').on('load', frameIt);
-  //$('form:input').on('keydown', pressIt(key));
-  pressIt();
+  $('form:input').on('keydown', pressIt(key));
   $('form').on('submit', submitIt);
 });
