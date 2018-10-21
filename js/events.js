@@ -5,7 +5,7 @@ function getIt(){
 
 function frameIt(){
   this.addClass("tasty");
-
+}
 
 function pressIt(){
   if(key.which == 71){
