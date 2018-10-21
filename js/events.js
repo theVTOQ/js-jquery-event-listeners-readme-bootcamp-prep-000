@@ -4,7 +4,7 @@ function getIt(){
 }
 
 function frameIt(){
-  this.addClass("tasty");
+  $('img:last').addClass("tasty");
 }
 
 function pressIt(key){
