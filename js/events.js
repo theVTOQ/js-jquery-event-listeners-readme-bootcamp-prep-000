@@ -32,5 +32,6 @@ $(document).ready(function(){
   $('p').on('click', getIt);
   $('img').on('load', frameIt);
   //$('form:input').on('keydown', pressIt(key));
+  pressIt();
   $('form').on('submit', submitIt);
 });
