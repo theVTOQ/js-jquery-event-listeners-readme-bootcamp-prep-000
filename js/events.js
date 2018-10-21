@@ -7,7 +7,7 @@ function frameIt(){
   this.addClass("tasty");
 
 
-function pressIt(key){
+function pressIt(){
   if(key.which == 71){
     alert('G was pressed');
   }
