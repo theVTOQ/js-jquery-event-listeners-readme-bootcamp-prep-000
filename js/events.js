@@ -22,6 +22,6 @@ $(document).ready(function(){
 // call functions here
   $('p').on('click', getIt);
   $('img').on('load', frameIt);
-  $('form:input').on('keydown', pressIt)
+  $('form:input').on('keydown', pressIt(key))
   $('form').on('submit', submitIt);
 });
